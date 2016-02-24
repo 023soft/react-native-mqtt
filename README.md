@@ -136,4 +136,8 @@ mqtt.createClient({
 
 ```
 INHERIT FROM MQTT LIBRARY (progress)
+1.git clone 下载到本地 
+2.在安装完所需要的安装包以后 最后加入集成
+3.add this linker flag: `-ObjC -licucore`
+直接手动集成不能采用rnpm link
 ```
